@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    "ms-ceintl.vscode-language-pack-ja",
+    "GitHub.copilot",
+    "ms-vscode.makefile-tools",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.debugpy",
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-extension-pack",
+    "ms-vscode.cpptools-themes",
+    "ms-vscode.cmake-tools",
+    "ms-vscode.live-server",
+    "ritwickdey.LiveServer",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "Gruntfuggly.todo-tree",
+    "bierner.markdown-preview-github-styles",
+    "DavidAnson.vscode-markdownlint",
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
