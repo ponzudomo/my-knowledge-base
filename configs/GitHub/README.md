@@ -59,4 +59,6 @@ applyTo: '**'
 　  　
 
 # 参考文献リスト
+- [GitHub Copilot のリポジトリ カスタム命令を追加する - GitHub Docs](https://docs.github.com/ja/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot)
 - [GitHub Copilot の指示書が複数ファイル対応に！ルールを用途別に整理できる新機能 - Zenn](https://zenn.dev/m10maeda/articles/copilot-multi-instruction-files#github-copilot-%E3%81%AE%E6%8C%87%E7%A4%BA%E3%81%8C%E3%82%82%E3%81%A3%E3%81%A8%E6%9F%94%E8%BB%9F%E3%81%AB%EF%BC%81vscode-v1.100.0-%E3%81%AE%E6%96%B0%E6%A9%9F%E8%83%BD)
+- [Visual Studio Code の git 連携機能と git コマンドについて - Qiita](https://qiita.com/satokaz/items/4660ce57ca8eb456a096)
