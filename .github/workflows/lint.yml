@@ -1,0 +1,25 @@
+# lint.yml
+# コードの静的解析・Lintチェック用ワークフロー
+
+name: Lint
+
+on:
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Run ESLint (JavaScript/TypeScript)
+        run: |
+          if [ -f package.json ]; then npx eslint . || true; fi
+      - name: Run flake8 (Python)
+        run: |
+          if [ -f requirements.txt ]; then pip install flake8 && flake8 . || true; fi
+      - name: Run clang-tidy (C++)
+        run: |
+          find . -name "*.cpp" | xargs -r clang-tidy || true
+        shell: bash
