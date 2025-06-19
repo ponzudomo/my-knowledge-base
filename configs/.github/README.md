@@ -1,25 +1,25 @@
 # このフォルダについて: GitHubに関する設定一覧
-このフォルダには、現状<br>
+
+このフォルダには、現状
 - `README.md`: 設定方法に関する勉強メモ、フォルダの使い方についての説明
-- `*.instructions.md`: 各`instructgions.md`のテンプレート
+- `*.instructions.md`: 各`instructions.md`のテンプレート
 
-が入っている。たぶんこれから増える。　<br>
-　
+が入っている。たぶんこれから増える。
+
 ## todo
-テンプレを使う際は、以下に沿って手直しを行うこと。<br>
-- `general.instructions.md`の、個々のリポジトリに関する説明を埋める<br>
-- 各言語の`instructions.md`に各々のプロジェクトのコーディング規約を適用させる (デフォルトでは公式ドキュメント通りの内容が書いてある)<br>
-- 中身をよく読み、各々のプロジェクトの方針に沿って書き換える (デフォルトではそれっぽいことが書いてある)<br>
+テンプレを使う際は、以下に沿って手直しを行うこと。
+- `general.instructions.md`の、個々のリポジトリに関する説明を埋める
+- 各言語の`instructions.md`に各々のプロジェクトのコーディング規約を適用させる (デフォルトでは公式ドキュメント通りの内容が書いてある)
+- 中身をよく読み、各々のプロジェクトの方針に沿って書き換える (デフォルトではそれっぽいことが書いてある)
 
-　
 # GitHub Copilotのカスタムについて
-GitHub Copilotにはカスタム指示を与えることができる。　<br>
-ディレクトリ内に特定の名前のファイルを置くことで、ディレクトリ全体に対して適用させられる。　<br>
-　<br>
-基本的には、`.github/copilot-instructions.md` にまとめて書かれることが多い。　<br>
-`.github/instructions/*.instructions.md` にファイルを分割して設置することもできる。<br>
-この場合指示の適用範囲を個別に定めることができるため、大規模なプロジェクトや複数の言語を扱う場合に便利らしい。　<br>
-　
+GitHub Copilotにはカスタム指示を与えることができる。<br>
+ディレクトリ内に特定の名前のファイルを置くことで、ディレクトリ全体に対して適用させられる。
+
+基本的には`.github/copilot-instructions.md` にまとめて書かれることが多い。
+`.github/instructions/*.instructions.md` にファイルを分割して設定することもできる。
+この場合指示の適用範囲を個別に定めることができるため、大規模なプロジェクトや複数の言語を扱う場合に便利らしい。
+
 ### ディレクトリ構成例
 ```markdown
 .
@@ -28,15 +28,12 @@ GitHub Copilotにはカスタム指示を与えることができる。　<br>
         ├── ⚙️ general.instructions.md
         ├── ⚙️ react.instructions.md
         └── ⚙️ testing.instructions.md
-
 ```
-　  　
-　  　
+
 # `.instructions.md` の書き方
-## 雛形
+## 例形
 
 ```markdown
-
 ---
 applyTo: '**'
 ---
@@ -48,7 +45,7 @@ applyTo: '**'
 ## Purpose
 
 ## Usage
--
+```
 
 ## Key Files and Folders
 -

@@ -4,14 +4,13 @@ applyTo: "**"
 
 # Description
 
-General instructions for GitHub Copilot to follow when working with this repository.
-This file provides guidelines on how to read the repository, generate responses, and manage risks.
+General instructions for GitHub Copilot to follow when working with this repository.<br>
+This file provides guidelines on how to read the repository, generate responses, and manage risks.<br>
 (YAML で記述するとエラーが出てしまうようだったのでこちらに記述しています、要確認)
 
 ## Purpose
 
 このリポジトリは　のためのリポジトリである
-
 を対象に　で　を提供する
 
 ## Usage
@@ -29,8 +28,6 @@ etc...
 
 ## For GitHub Copilot
 
-## For GitHub Copilot
-
 (個人のプロジェクト用)
 
 > [!IMPORTANT]
@@ -44,11 +41,11 @@ etc...
 >
 > ### 全体の方針
 >
-> 以下を常に念頭に置くこと
+> 以下を常に念頭に置くこと<br>
 >
 > - あなたの目的は目先の問題解決ではなく、より長期的なユーザーの成長の手助けである。
->   　 - 修正案を出すだけでなく、ユーザーが理解できるように補助を行うこと。
->   　 - 指定された箇所だけでなく、他にも問題があると思われる場合はまとめて報告すること。
+>   - 修正案を出すだけでなく、ユーザーが理解できるように補助を行うこと。
+>   - 指定された箇所だけでなく、他にも問題があると思われる場合はまとめて報告すること。
 > - 時間よりもクオリティ重視で回答または改善案を生成すること。
 > - 決定権はユーザーにある。適宜意思確認を取りながら、許可を得て作業を行うこと。報告は丁寧に正直に行うこと。
 > - より広い情報源から思考すること。
@@ -70,11 +67,11 @@ etc...
 >
 > ### 全体の方針
 >
-> 以下を常に念頭に置くこと
+> 以下を常に念頭に置くこと<br>
 >
 > - あなたの目的は目先の問題解決ではなく、より長期的なユーザーの成長の手助けである。
->   　 - 修正案を出すだけでなく、ユーザーが理解できるように補助を行うこと。
->   　 - 指定された箇所だけでなく、他にも問題があると思われる場合はまとめて報告すること。
+>   - 修正案を出すだけでなく、ユーザーが理解できるように補助を行うこと。
+>   - 指定された箇所だけでなく、他にも問題があると思われる場合はまとめて報告すること。
 > - 時間よりもクオリティ重視で回答または改善案を生成すること。
 > - 決定権はユーザーにある。適宜意思確認を取りながら、許可を得て作業を行うこと。報告は丁寧に正直に行うこと。
 > - より広い情報源から思考すること。
