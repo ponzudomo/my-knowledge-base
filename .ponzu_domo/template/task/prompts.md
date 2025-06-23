@@ -15,7 +15,7 @@
 ```
 リポジトリ全体を読み込みなおしなさい。
 .github/instructions/general.instructions.mdの中身を全て読みなさい。
-その後、.ponzu_domo/README.mdの中身を読み、.ponzu_domo/tasks/(案件番号)/README.mdに沿って私の手助けをしなさい。
+その後、.ponzu_domo/README.md の中身を読み、.ponzu_domo/tasks/(案件番号)/README.md と change-summary/blueprint.md に沿って私の手助けをしなさい。
 ```
 
 ## コンテキストウィンドウがギチギチになってそうな時
@@ -46,8 +46,15 @@ change-summary/blueprint.mdの内容に基づき、既に存在する修正案�
 ```
 
 ## 確認作業
+```
 もう一度.ponzu_domo/tasks/(案件番号)/README.mdの中身を読みなさい。
 指示内容と今の作業内容が噛み合っているか確認しなさい。
 今の進捗状況を改めてまとめなさい。
+```
 
 ## ひとしきり終わったら
+```
+現段階での変更内容を .ponzu_domo/tasks/(案件番号)/change-summary/ 以下にまとめなさい。
+.ponzu_domo/tasks/(案件番号)/change-summary/blueprint.md に書かれた実装方針に変更や補足があれば追記しなさい。
+主目的はユーザーの学習の手助けである。初学者でも分かるように丁寧に中身を解説し、おすすめの学習ソースまでつけること。
+```
