@@ -8,40 +8,41 @@
 .ponzu_domo/README.md
 .ponzu_domo/tasks/(案件番号)/README.md
 これからこれらのドキュメントに沿って私の手助けをしてもらう。
-まずは案件を進めるにあたっての方針を擦り合わせたい。change-summary/blueprint.mdに実装方針をまとめなさい。
+まずは案件を進めるにあたっての方針を擦り合わせたい。blueprint.mdに実装方針をまとめなさい。
 ```
 
 ## 作業を途中から再開するとき
 ```
 リポジトリ全体を読み込みなおしなさい。
 .github/instructions/general.instructions.mdの中身を全て読みなさい。
-その後、.ponzu_domo/README.md の中身を読み、.ponzu_domo/tasks/(案件番号)/README.md と change-summary/blueprint.md に沿って私の手助けをしなさい。
+その後、.ponzu_domo/README.md の中身を読み、.ponzu_domo/tasks/(案件番号)/README.md と blueprint.md に沿って私の手助けをしなさい。
 ```
 
 ## コンテキストウィンドウがギチギチになってそうな時
 ```
-そのまま作業を続けてほしい。ただし、以下の4つのファイルの内容は常に頭に入れておくこと。
+そのまま作業を続けてほしい。ただし、以下の5つの内容を読みこみなおし、中身をすべて確認し、常に頭に入れておくこと。
 .github/instructions/general.instructions.md
 .ponzu_domo/README.md
 .ponzu_domo/tasks/(案件番号)/README.md
 .ponzu_domo/tasks/(案件番号)/file-descriptions/*
+.ponzu_domo/tasks/(案件番号)/blueprint.md
 ```
 
 ## 行き詰まったとき
 ```
 今までの作業内容をすべて忘れなさい。
 リポジトリ全体を読み込みなおしなさい。
-それから、以下の3つのファイルの内容をよく確認しなさい。
+それから、以下の3つのファイルの内容を全て確認しなさい。
 .github/instructions/general.instructions.md
 .ponzu_domo/README.md
 .ponzu_domo/tasks/(案件番号)/README.md
 これからこれらのドキュメントに沿って私の手助けをしてもらう。
-まずは案件を進めるにあたっての方針を擦り合わせたい。change-summary/blueprint.mdに書かれた実装方針の手直しをしなさい。
+まずは案件を進めるにあたっての方針を擦り合わせたい。blueprint.mdに書かれた実装方針の手直しをしなさい。
 この際、既に存在する修正案のファイルは無視して作業を進めなさい。
 ```
 
 ```
-change-summary/blueprint.mdの内容に基づき、既に存在する修正案を全て手直ししなさい。
+blueprint.mdの内容に基づき、既に存在する修正案を全て手直ししなさい。
 根本的に構造を変えても構わない。
 ```
 
@@ -55,6 +56,6 @@ change-summary/blueprint.mdの内容に基づき、既に存在する修正案�
 ## ひとしきり終わったら
 ```
 現段階での変更内容を .ponzu_domo/tasks/(案件番号)/change-summary/ 以下にまとめなさい。
-.ponzu_domo/tasks/(案件番号)/change-summary/blueprint.md に書かれた実装方針に変更や補足があれば追記しなさい。
+.ponzu_domo/tasks/(案件番号)/blueprint.md に書かれた実装方針に変更や補足があれば追記しなさい。
 主目的はユーザーの学習の手助けである。初学者でも分かるように丁寧に中身を解説し、おすすめの学習ソースまでつけること。
 ```

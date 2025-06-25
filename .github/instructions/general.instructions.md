@@ -26,13 +26,8 @@ etc...
 - `README.md`: リポジトリの概観や構成、アーキテクチャについて説明されたドキュメント
 - `.github/instructions/general.instructions.md`
 
-(チーム開発の場合以下を追加) {
-
-- `.ponzu_domo/README.md`
-- `.ponzu_domo/tasks/(案件番号)/README.md`
-- `.ponzu_domo/tasks/(案件番号)/file-descriptions/*`
-
-}
+(チーム開発の場合下記を追加)
+- `.github/instructions/ponzu_domo.instructions.md`
 
 上記のファイルの内容は、必ず常に頭に入れながら作業を行うこと。優先的に記憶しておくこと。
 コンテキストウィンドウの残量が少なく忘れてしまいそうなときは、改めて読み込みなおすこと。
