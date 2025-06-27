@@ -14,18 +14,36 @@
 ## 作業を途中から再開するとき
 ```
 リポジトリ全体を読み込みなおしなさい。
-.github/instructions/general.instructions.mdの中身を全て読みなさい。
-その後、.ponzu_domo/README.md の中身を読み、.ponzu_domo/tasks/(案件番号)/README.md と blueprint.md に沿って私の手助けをしなさい。
+それから、以下の3つのファイルの内容をよく確認しなさい。
+.github/instructions/general.instructions.md
+.ponzu_domo/README.md
+.ponzu_domo/tasks/(案件番号)/README.md
+これからこれらのドキュメントに沿って私の手助けをしてもらう。
+.ponzu_domo/tasks/(案件番号)/README.md の「今お願いしたいこと」に従い作業を進めなさい。
 ```
 
 ## コンテキストウィンドウがギチギチになってそうな時
 ```
-そのまま作業を続けてほしい。ただし、以下の5つの内容を読みこみなおし、中身をすべて確認し、常に頭に入れておくこと。
+そのまま作業を続けてほしい。
+ただし、以下の5つの内容を読みこみなおし、中身をすべて確認すること。
+以下の内容は、忘れそうになったタイミングで都度読み込みなおし、中身を全て確認すること。
+常に頭に入れておくこと。
 .github/instructions/general.instructions.md
 .ponzu_domo/README.md
 .ponzu_domo/tasks/(案件番号)/README.md
 .ponzu_domo/tasks/(案件番号)/file-descriptions/*
 .ponzu_domo/tasks/(案件番号)/blueprint.md
+```
+
+## 方針変更時
+```
+blueprintの中身を手直しした。もう一度ファイルを読み込みなおし、最後まで全て読んで。
+変更内容に応じてfile-descriptionのoverview,mdも手直しして。
+ただし、以下の内容を再度読み込みなおし、内容をすべて読み込み、常に頭に入れておくこと。
+.github/instructions/general.instructions.md
+.ponzu_domo/README.md
+.ponzu_domo/tasks/153829/README.md
+.ponzu_domo/tasks/153829/blueprint.md
 ```
 
 ## 行き詰まったとき
@@ -49,8 +67,10 @@ blueprint.mdの内容に基づき、既に存在する修正案を全て手直�
 ## 確認作業
 ```
 もう一度.ponzu_domo/tasks/(案件番号)/README.mdの中身を読みなさい。
-指示内容と今の作業内容が噛み合っているか確認しなさい。
-今の進捗状況を改めてまとめなさい。
+指示内容と今の変更内容(.ponzu_domo/tasks/(案件番号)/after/ 以下)が噛み合っているか確認しなさい。
+.ponzu_domo/tasks/(案件番号)/blueprint.mdの内容を確認し、実装方針に沿って作業を進めているか確認しなさい。
+今の進捗状況(.ponzu_domo/tasks/(案件番号)/after/ 以下)を.ponzu_domo/tasks/(案件番号)/change-summary/ 以下に改めてまとめなさい。
+主目的はユーザーの学習の手助けである。初学者でも分かるように丁寧に中身を解説し、おすすめの学習ソースまでつけること。
 ```
 
 ## ひとしきり終わったら
