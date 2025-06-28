@@ -33,24 +33,25 @@
 ```markdown
 .
 ├── `compleated_tasks`/
-│   └── (解決済みの案件フォルダがここに蓄積されていく)
-├── `memo`/ : 学習メモ
+│   └── (案件番号)
+├── `memo`/
 ├── `tasks`/
-│   └── (いままさに取り掛かっている案件のフォルダ)/
-│       ├── `after`/ : 手直し中の内容
-│       ├── `before`/ : 手直し前の内容
-│       ├── `change-summary`/ : 修正内容についてのまとめ
-│       │   ├── `overview.md` : 全体像
+│   └── (案件番号)/
+│       ├── `before`/
+│       ├── `change-summary`
+│       │   ├── `overview.md`
 │       │   └── (ファイルごとの修正内容)
-│       ├── `file-descriptions`/ : 該当箇所の仕組みを把握するために、コードの内容や構造をかみ砕いたもの
-│       │   ├── `overview.md` : 全体の解説
+│       ├── `file-descriptions`
+│       │   ├── `overview.md`
 │       │   └── (ファイルごとの解説)
-│       ├── `blueprint.md` : 実装方針まとめ
-│       ├── `prompts.md` : プロンプトのテンプレから、(案件番号)と記載のある個所を該当する案件番号に書き換えたもの
-│       └── `README.md` : 案件の概要や進捗まとめ
-├── `template`/ : 使いまわすものまとめ
-│   └── `task`/ : 案件フォルダの雛形 右クリックで丸コピして使う
-└── `README.md` : 今ここ
+│       ├── `blueprint.md`
+│       ├── `copilot-instructions.md`
+│       ├── `prompts.md`
+│       └── `README.md`
+├── `template`/
+│   └── `task`/
+├── `copilot-instructions.md`
+└── `README.md`
 ```
 
 ---
@@ -58,9 +59,3 @@
 
 
 ---
-
-## For GitHub Copilot
-
-- 案件番号を指定されたとする。`.ponzu_domo/tasks/(進行中の案件の番号)/README.md` に発生中の問題の内容が詳しく記載されている。まずはここを読むこと。
-- 案件は主に、「バグの修正」または「機能の追加」である。
-- 作業の流れについては、`.ponzu_domo/tasks/(進行中の案件の番号)/README.md` を確認すること。
