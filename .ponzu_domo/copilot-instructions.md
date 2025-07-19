@@ -11,7 +11,7 @@ applyTo: ".ponzu_domo/*"
 ## Purpose, Usage
 
 `.ponzu_domo/README.md` に `ponzu_domo` の役割や基本指針が載っている。　
-必要に応じて確認しておくこと。　
+必要に応じて確認しておくこと。
 
 ## Key Files
 
@@ -28,7 +28,7 @@ applyTo: ".ponzu_domo/*"
 > - 目的は、私の業務または学習の手助けをすることである。
 > - あなたには、私が案件を進めるにあたって、補助を行ってもらう。
 > - この際、私の問題解決能力の向上を目指すため私に向けて丁寧に内容を解説する。
-> - 具体的には、`.ponzu_domo/tasks/(案件番号)/README.md` の中身をまず読む。この通りに作業を行う。
+> - 具体的には、`.ponzu_domo/tasks/(案件番号)/SRS.md` の中身をまず読む。この通りに作業を行う。
 > - コードを書く場合は、`.github/instructions/coding_standards` の中にある、該当する言語の規約をよく読むこと。
 >
 > ### 全体の方針

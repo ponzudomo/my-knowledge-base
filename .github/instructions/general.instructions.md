@@ -23,8 +23,14 @@ etc...
 
 ## Key Files and Folders
 
-- `README.md`: リポジトリの概観や構成、アーキテクチャについて説明されたドキュメント
-- `.github/instructions/general.instructions.md`
+- `.github/instructions/general.md` : リポジトリ全体を通しての指針
+- `.github/instructions/coding-standards/*` : 各言語のコーディング規約
+- `.ponzu_domo/README.md` : `.ponzu_domo` ディレクトリの概要
+- `.ponzu_domo/copilot-instructions.md` : `.ponzu_domo/*` に適用される指示
+- `.ponzu_domo/tasks/(案件番号)/copilot-instructions.md` : `.ponzu_domo/tasks/(案件番号)` に適用される指示
+- `.ponzu_domo/tasks/(案件番号)/SRS.md` : 要件定義書
+- `.ponzu_domo/tasks/(案件番号)/blueprint.md` : 案件の実装方針まとめ
+- `.ponzu_domo/tasks/(案件番号)/file-descriptions/overview.md` : 関連ファイルの役割要約
 
 上記のファイルの内容は、必ず常に頭に入れながら作業を行うこと。優先的に記憶しておくこと。
 コンテキストウィンドウの残量が少なく忘れてしまいそうなときは、改めて読み込みなおすこと。

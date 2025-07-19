@@ -14,7 +14,8 @@ applyTo: ".ponzu_domo/tasks/(案件番号)/*"
 - `.github/instructions/coding-standards/*` : 各言語のコーディング規約
 - `.ponzu_domo/README.md` : `.ponzu_domo` ディレクトリの概要
 - `.ponzu_domo/copilot-instructions.md` : `.ponzu_domo/*` に適用される指示
-- `.ponzu_domo/tasks/(案件番号)/README.md` : 案件の概要や進捗まとめ
+- `.ponzu_domo/tasks/(案件番号)/copilot-instructions.md` : `.ponzu_domo/tasks/(案件番号)` に適用される指示
+- `.ponzu_domo/tasks/(案件番号)/SRS.md` : 要件定義書
 - `.ponzu_domo/tasks/(案件番号)/blueprint.md` : 案件の実装方針まとめ
 - `.ponzu_domo/tasks/(案件番号)/file-descriptions/overview.md` : 関連ファイルの役割要約
 
